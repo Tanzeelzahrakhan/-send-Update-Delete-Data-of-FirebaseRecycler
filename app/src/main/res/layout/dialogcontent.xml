@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Content Panel"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="40dp"
+        android:padding="9dp"
+        android:hint="Name"
+        android:id="@+id/uname"
+        android:background="@drawable/stroke"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="40dp"
+        android:hint="Email"
+        android:background="@drawable/stroke"
+        android:padding="9dp"
+        android:id="@+id/uemail"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:id="@+id/pass"
+        android:padding="9dp"
+        android:background="@drawable/stroke"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="40dp"
+        android:hint="Image URL"
+        android:id="@+id/uimgurl"
+        android:padding="9dp"
+        android:background="@drawable/stroke"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/usubmit"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@color/myclr"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
